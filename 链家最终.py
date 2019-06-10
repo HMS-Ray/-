@@ -37,6 +37,6 @@
 		pd_look = pd.DataFrame(infos)
 		pd_look.to_excel('链家二手房.xlsx', sheet_name='链家二手房')
 >>> my_problem=lianjia('gz',5,{
-	'User-Agent':'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.96 Safari/537.36'
+	'User-Agent':'**'
 	})
 >>> my_problem.pc()
